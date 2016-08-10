@@ -321,3 +321,26 @@ input:focus, textarea:focus {
 
  }
 }
+@media screen and (max-width: 650px) {
+
+  .header{
+    text-align: center;
+  }
+  .logotipo{
+    margin: 0;
+  }
+  .menu{
+    /*border: 1px solid red;*/
+    position: static;
+    display: block;
+    text-align: center;
+
+  }
+  .menu li:first-child{
+    /*border: 1px solid red;*/
+  .margin: 0px;
+  }
+  .menu ul{
+    padding: 0px;
+  }
+}
