@@ -297,6 +297,27 @@ input:focus, textarea:focus {
     display: inline-block;
   }
   /*portada*/
-  
+  .guitarras{
+    /*margin-left: 200px;*/
+    text-align: center;
 
+  }
+  .derecha, .izquierda {
+    float: none;
+    position: static;
+  }
+  .title-b{
+    margin: 0;
+  }
+  .guitarra li{
+    list-style: none;
+  }
+  .guitarra.b{
+    height: auto;
+  }
+ .contenedor-guitarra-b{
+   margin: 0;
+   position: static;
+
+ }
 }
