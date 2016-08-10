@@ -1,4 +1,4 @@
-/** {
+    /** {
   width: tamaño;
   height: tamaño;
   padding: 10px;
@@ -338,9 +338,37 @@ input:focus, textarea:focus {
   }
   .menu li:first-child{
     /*border: 1px solid red;*/
-  .margin: 0px;
+  .margin: 0;
   }
   .menu ul{
     padding: 0px;
+    border-bottom: 1px solid white:
   }
+}
+@media screen and (max-width: 500px) {
+  .menu li{
+    display: block;
+    margin: 0;
+    border-bottom: 1px solid white;
+    padding: 8px 0px;
+
+  }
+  .menu li:before {
+    display: none;
+
+  }
+  .menu li:first-child{
+    border-top: 1px solid white;
+  }
+  .portada {
+    text-align: center;
+  }
+  .titulo{
+    font-size: 30px;
+
+  }
+  .title{
+    font-size: 16px;
+  }
+
 }
